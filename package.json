@@ -39,6 +39,7 @@
   },
   "homepage": "https://styled-components.com",
   "dependencies": {
+    "@types/react": "^0.14.44",
     "buffer": "^5.0.0",
     "css-to-react-native": "^1.0.6",
     "fbjs": "^0.8.4",
