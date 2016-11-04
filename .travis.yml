@@ -15,7 +15,7 @@ before_script:
   - ruby -v
 script:
   - danger
-  - npm run lint && npm run test
+  - npm run lint && npm run tslint && npm run test
 notifications:
   email:
     on_failure: change
